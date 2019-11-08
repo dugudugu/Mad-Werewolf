@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
+     <link rel="stylesheet" href="static/css/style.css"/>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
+
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><i class="fab fa-wolf-pack-battalion"></i> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="spotting.html">Spotted</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="attacked.html">When Attacked</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="history.html">History</a>
+      </li>
+    </ul>
+    </div>
+</nav>
+
+<main>
+
+<!-- Spotting locations with Googgle Maps -->
+<div class="container">
+
+    <!-- Header-->
+    <div class="spotting-header">
+    <h1>Werewolf Spottings</h1>
+    <p>Ever wonder where you can search for werewolfs?</p>
+    </div>
+
+    <!-- Google Maps -->
+    <div class="spotting-map" id="map" style="height:500px; width: 500px;"></div>
+    <div id="markers"></div>
+
+    <!-- List of locations -->
+    <div class="spotting-list">
+    <ul>
+    <li class="rest d-flex justify-content-between" data-lat="55.2341" data-lng="-2.5825" data-index="0">
+    <h4>Kielder Water and Forest Park</h4>
+    <p>United Kingdom</p>
+    </li>
+    <li class="rest d-flex justify-content-between" data-lat="60.1054" data-lng="7.6081" data-index="1">
+    <h4>Hardangervidda National Park</h4>
+    <p>Norway</p>
+    </li>
+    <li class="rest d-flex justify-content-between" data-lat="69.7309" data-lng="26.6327" data-index="2">
+    <h4>Kaldoaivi Wilderness Area</h4>
+    <p>Finland</p>
+    </li>
+    <li class="rest d-flex justify-content-between" data-lat="67.9762" data-lng="-161.6432" data-index="3">
+    <h4>Noatak National Preserve</h4>
+    <p>Alaska</p>
+    </li>
+    <li class="rest d-flex justify-content-between" data-lat="58.0314" data-lng="-123.3241" data-index="4">
+    <h4>Northern Rocky Mountains Provincial Park</h4>
+    <p>Canada</p>
+    </li>
+    <li class="rest d-flex justify-content-between" data-lat="43.9306" data-lng="-109.9298" data-index="5">
+    <h4>Yellowstone National Park</h4>
+    <p>United States</p>
+    </li>
+    <li class="rest d-flex justify-content-between" data-lat="16.6800" data-lng="-91.7096" data-index="6">
+    <h4>Parque Natural Montes Azules</h4>
+    <p>Mexico</p>
+    </li>
+    <li class="rest d-flex justify-content-between" data-lat="7.5536" data-lng="-75.9658" data-index="7">
+    <h4>Paramillio National Park</h4>
+    <p>Colombia</p>
+    </li>
+    <li class="rest d-flex justify-content-between" data-lat="-9.0513" data-lng="-66.3096" data-index="8">
+    <h4>National Forest Iquiri Park</h4>
+    <p>Brazil</p>
+    </li>
+    <li class="rest d-flex justify-content-between" data-lat="-47.0624" data-lng="-72.4208" data-index="9">
+    <h4>Patagonia National Park</h4>
+    <p>Chile</p>
+    </li>
+    </ul>
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+</main>
+<!-- Footer -->
+<footer class="container-fluid bg-dark">
+  <div class="copy">
+      <p>&copy; Copyright 2019, The Crazy Zebra's</p>
+  </div>
+ </footer>
+
+
+
+<!-- Script Tags -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js" integrity="sha256-fTuUgtT7O2rqoImwjrhDgbXTKUwyxxujIMRIK7TbuNU=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEc-s5TT9ofOtfuY6M7KjY3gWs-qgEVz8"></script>
+<script type="text/javascript" src="/static/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+/* Homepage Styles */
+
+.background {
+    background-color: #343a40;
+    color: white;
+}
+
+.red {
+    color: #c70d3a;
+}
+
+.carousle-container{
+    margin: 0 auto;
+}
+
+.d-block {
+    height: 50vh;
+}
+
+.media-section {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+
+iframe {
+    height: 350px;
+}
+
+/* Navbar Styling */
+#navbarColor02 ul li a {
+    color:#c70d3a;
+    font-family:Century Gothic;
+    font-weight:500;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding: 15px;
+    margin-right: auto;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+#navbarColor02 ul li a:hover {
+    color:#ff9999;
+}
+
+.fa-wolf-pack-battalion {
+    font-size: 45px;
+    padding: 15px;
+    color: #c70d3a;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.fa-wolf-pack-battalion:hover{
+   transform: scale(1.5);
+}
+
+/* Footer Styling */
+
+footer {
+  height: 60px;
+display: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.copy {
+     color:#c70d3a;
+     text-align: center;
+     padding-top: 10px;
+     font-size: small;
+}
+
+/* Text Styling */
+.history h1 {
+    text-align: center;
+}
+
+.history p {
+    padding: 10px;
+}
+
+
+#map {
+ width: 50%;
+ height: 50%;
+}
+
+
+
+
