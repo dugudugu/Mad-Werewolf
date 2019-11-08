@@ -91,10 +91,18 @@ display: relative;
     padding: 10px;
 }
 
+.history h2 {
+    text-align: center;
+}
+
+.history a {
+    text-align: center;
+}
+
 
 #map {
- width: 50%;
- height: 50%;
+ width: 100%;
+ height: 100%;
 }
 
 
